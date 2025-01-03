@@ -120,7 +120,7 @@ header {
 
 .section-first {
     background-color: #F4EDE4;
-    .head-first-secrion {
+    .head-first-section {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -135,6 +135,26 @@ header {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
+        }
+    }
+
+    .main-first-section {
+        div {
+            width: 600px;
+            padding: 50px 50px;
+            p {
+                margin: 10px 0;
+                font-size: 3.3rem;
+                &:nth-last-child(2){
+                    font-size: 1.2rem;
+                }   
+            }
+            a {
+                font-size: 1.2rem;
+            }
+            &:nth-last-child(2){
+                margin-left: auto;
+            }
         }
     }
 }

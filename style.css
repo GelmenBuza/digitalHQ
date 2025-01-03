@@ -107,20 +107,37 @@ header nav div a {
 .section-first {
   background-color: #F4EDE4;
 }
-.section-first .head-first-secrion {
+.section-first .head-first-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.section-first .head-first-secrion p {
+.section-first .head-first-section p {
   margin: 0;
   margin-top: 45px;
   font-size: 0.93rem;
 }
-.section-first .head-first-secrion div {
+.section-first .head-first-section div {
   margin: 30px 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.section-first .main-first-section div {
+  width: 600px;
+  padding: 50px 50px;
+}
+.section-first .main-first-section div p {
+  margin: 10px 0;
+  font-size: 3.3rem;
+}
+.section-first .main-first-section div p:nth-last-child(2) {
+  font-size: 1.2rem;
+}
+.section-first .main-first-section div a {
+  font-size: 1.2rem;
+}
+.section-first .main-first-section div:nth-last-child(2) {
+  margin-left: auto;
 }/*# sourceMappingURL=style.css.map */
