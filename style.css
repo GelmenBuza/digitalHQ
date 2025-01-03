@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+body {
+  font-size: 15px;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #541554;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+}
+header nav div {
+  margin-top: 30px;
+}
+header nav div:first-child a {
+  margin: 0 30px;
+}
+header nav div:first-child a:first-child {
+  margin-left: 156px;
+}
+header nav div:last-child a {
+  margin: 0 50px;
+}
+header nav div:last-child a:last-child {
+  color: #FFFFFF;
+}
+header nav div a {
+  color: #1D1D1D;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+  margin-top: 60px;
+}
+.header div h1 {
+  color: #FFFFFF;
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 400;
+}
+.header div p {
+  color: #FFFFFF;
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 70px;
+}
+.header div p:last-child {
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+.header .button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 55px;
+}
+.header .button_email {
+  width: 235px;
+  height: 60px;
+  background-color: #FFFFFF;
+  color: #611F69;
+  font-size: 0.93rem;
+  font-family: Roboto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header .button_google {
+  width: 235px;
+  height: 60px;
+  background-color: #4285F4;
+  color: #FFFFFF;
+  font-size: 0.93rem;
+  font-family: Roboto;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.header .button_google img {
+  width: 49px;
+  height: 49px;
+}
+.header .main_images {
+  width: 540px;
+  height: 308px;
+}
+
+.section-first {
+  background-color: #F4EDE4;
+}
+.section-first .head-first-secrion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-first .head-first-secrion p {
+  margin: 0;
+  margin-top: 45px;
+  font-size: 0.93rem;
+}
+.section-first .head-first-secrion div {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
