@@ -138,6 +138,106 @@ header nav div a {
 .section-first .main-first-section div a {
   font-size: 1.2rem;
 }
-.section-first .main-first-section div:nth-last-child(2) {
+.section-first .main-first-section div:nth-last-child(odd) {
   margin-left: auto;
+}
+
+.section-second .head-second-section {
+  display: flex;
+  flex-direction: row;
+}
+.section-second .head-second-section div {
+  display: flex;
+  flex-direction: column;
+}
+.section-second .head-second-section div:nth-last-child(odd) {
+  width: 15%;
+  margin: 0 30px;
+  margin-top: 30px;
+  align-items: center;
+  gap: 50px;
+}
+.section-second .head-second-section div:nth-last-child(odd) img {
+  width: 77px;
+  height: 51px;
+}
+.section-second .head-second-section div:nth-last-child(odd) img:nth-last-child(even) {
+  margin-left: auto;
+}
+.section-second .head-second-section div:nth-last-child(even) {
+  width: 85%;
+  justify-content: center;
+}
+.section-second .head-second-section div:nth-last-child(even) div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+.section-second .head-second-section div:nth-last-child(even) div button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 0.93rem;
+  color: #611F69;
+  background-color: #FFFFFF;
+}
+.section-second .head-second-section div:nth-last-child(even) div button:nth-last-child(even) {
+  width: 300px;
+  background-color: #611F69;
+  color: #FFFFFF;
+}
+.section-second .head-second-section div:nth-last-child(even) p {
+  margin: 0;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3rem;
+}
+.section-second .head-second-section div:nth-last-child(even) span {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.section-second .statics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.section-second .statics div p {
+  margin: 0;
+  font-size: 4.26rem;
+  color: #611F69;
+}
+.section-second .statics div span {
+  margin-top: 4px;
+  font-size: 0.93rem;
+}
+.section-second .information {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  width: 525px;
+  margin-right: 40px;
+  margin-top: 120px;
+  margin-bottom: 130px;
+}
+.section-second .information span {
+  font-size: 1rem;
+}
+.section-second .information span:first-child {
+  font-size: 1.8rem;
+}
+.section-second .information span:nth-child(2) {
+  margin-top: 10px;
+}
+.section-second .information span:nth-child(3) {
+  margin-top: 3px;
+}
+.section-second .information a {
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
